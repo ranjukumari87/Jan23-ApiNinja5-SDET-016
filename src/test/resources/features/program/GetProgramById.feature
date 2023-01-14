@@ -1,6 +1,6 @@
 Feature: Get program by Id
 
-@test
+@tag1
 Scenario: Get program by Id
   Given A Service with "https://lms-backend-service.herokuapp.com/lms/programs/367"
   When user sends get request

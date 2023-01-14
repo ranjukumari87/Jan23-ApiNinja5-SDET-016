@@ -11,13 +11,10 @@ import org.junit.runner.RunWith;
 		glue = {"com.sdet.imsapi.stepdefinition"},
 		plugin = {
 				"pretty", "json:target/Cucumber.json",
-				"html:target/Cucumber-html-report"
+				"html:target/Cucumber-html-report.html"
 		},
-		dryRun = false,
-		tags = "@test"
+		dryRun = false
 	)
 public class TestRunner {
-	
-	
 	
 }
